@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Zatca ERAD Test Suite">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="Author" value="Nilesh"/>
+    <test name="All Tests">
+        <classes>
+            <class name="sa.erad.portal.web.Signuptest">
+            </class>
+        </classes>
+    </test>
+</suite>
